@@ -1,0 +1,17 @@
+# Cấu hình khởi đầu theo tài liệu Description; chưa phải kết quả tối ưu.
+seed = 42
+data_path = "data/raw/cleveland.csv"
+target = "target"
+train_ratio = 0.8
+val_ratio = 0.1
+test_ratio = 0.1
+cv_folds = 5
+cv_scoring = "accuracy"
+mi_k = 13
+dt_k = 10
+age_bins = 5
+variants = ["original", "fe", "original_dt", "fe_dt"]
+models = ["naive_bayes", "knn", "decision_tree", "random_forest", "adaboost", "gradient_boosting", "xgboost"]
+# KMeans và stacking chỉ xuất hiện ở một số phần của Slide-v1.
+extension_models = ["kmeans", "stacking"]
+

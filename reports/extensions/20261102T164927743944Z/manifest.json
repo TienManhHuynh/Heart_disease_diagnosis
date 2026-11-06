@@ -1,0 +1,51 @@
+{
+  "parent_run_id": "20261102T164927743944Z",
+  "raw_sha256": "70a023033aaf840596737ad250eea055762ad825036ac73b5b29168dc638c7c2",
+  "created_utc": "2026-11-04T06:35:38.699068+00:00",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "shap": "0.51.0",
+    "streamlit": "1.66.1",
+    "joblib": "1.6.0"
+  },
+  "core_selected_key_unchanged": "random_forest/original",
+  "artifacts": {
+    "kmeans/original": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\kmeans\\original\\pipeline.joblib",
+      "sha256": "19a0bfb59c8b7e0a7f9dadde19e989587eceaae080cfb6c86626791e4b28d8a2"
+    },
+    "kmeans/fe": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\kmeans\\fe\\pipeline.joblib",
+      "sha256": "b4a3dd5e1a62efa721424c5d62043c81e693983f1dcb7817d05328b4899a8d45"
+    },
+    "kmeans/original_dt": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\kmeans\\original_dt\\pipeline.joblib",
+      "sha256": "d35b71c37ddfcfc04710b2fda26a7941c0c371418875bb123998e1d2f49a6595"
+    },
+    "kmeans/fe_dt": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\kmeans\\fe_dt\\pipeline.joblib",
+      "sha256": "7ac042e01d081fca967c1e06649fea3177aa653e1297865a039f514d1b6f7138"
+    },
+    "stacking/original": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\stacking\\original\\pipeline.joblib",
+      "sha256": "f93d1f8e70363f18e32f2f7369ae1f76e6d2b7cc5119b49d6136671403b6f94c"
+    },
+    "stacking/fe": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\stacking\\fe\\pipeline.joblib",
+      "sha256": "a17c2e0c0ac397204b16abd6a4bfc39e18d039491b81b0e817d921a7da6e995b"
+    },
+    "stacking/original_dt": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\stacking\\original_dt\\pipeline.joblib",
+      "sha256": "cbea6ab17699af4504806280ce183d7be08cbf73115808fcdc2889508a372fa4"
+    },
+    "stacking/fe_dt": {
+      "pipeline": "artifacts\\models\\20261102T164927743944Z\\extensions\\stacking\\fe_dt\\pipeline.joblib",
+      "sha256": "dbfc795967e3f385eae19794732292f2fabc3854a8a8966f65eccc493628ea0f"
+    }
+  },
+  "status": "exploratory_post_hoc",
+  "note": "Added after core test results were observed; descriptive extension only, not an independent confirmatory comparison."
+}

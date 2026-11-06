@@ -1,0 +1,16 @@
+{
+  "class": 1,
+  "output_scale": "probability",
+  "explainer_model_output": "raw",
+  "feature_perturbation": "tree_path_dependent",
+  "reference": "Training path counts embedded in the fitted forest/tree",
+  "max_additivity_error": 3.3306690738754696e-16,
+  "sample_count": 31,
+  "feature_count": 13,
+  "local_position": 0,
+  "local_original_index": 62,
+  "selection_rule": "Highest disease probability among correctly predicted positives; illustrative, not representative.",
+  "probability": 0.9819640350877193,
+  "reconstructed_probability": 0.9819640350877193,
+  "features_are_transformed": true
+}

@@ -1,0 +1,79 @@
+{
+  "run_id": "20261102T164927743944Z",
+  "selected_key": "random_forest/original",
+  "confusion_matrix": [
+    [
+      15,
+      2
+    ],
+    [
+      1,
+      13
+    ]
+  ],
+  "error_counts": {
+    "TN": 15,
+    "TP": 13,
+    "FP": 2,
+    "FN": 1
+  },
+  "shap_base_value": 0.46107438016528934,
+  "shap_local_probability": 0.9819640350877193,
+  "shap_local_index": 62,
+  "shap_directions_descriptive": [
+    {
+      "feature": "age",
+      "spearman_value_vs_shap": 0.8324762341833268
+    },
+    {
+      "feature": "trestbps",
+      "spearman_value_vs_shap": 0.767336387091349
+    },
+    {
+      "feature": "chol",
+      "spearman_value_vs_shap": 0.8020571104110583
+    },
+    {
+      "feature": "thalach",
+      "spearman_value_vs_shap": -0.948674037559371
+    },
+    {
+      "feature": "oldpeak",
+      "spearman_value_vs_shap": 0.8882533222929603
+    },
+    {
+      "feature": "sex",
+      "spearman_value_vs_shap": 0.82915619758885
+    },
+    {
+      "feature": "cp",
+      "spearman_value_vs_shap": 0.845439582173933
+    },
+    {
+      "feature": "fbs",
+      "spearman_value_vs_shap": -0.6276349052792142
+    },
+    {
+      "feature": "restecg",
+      "spearman_value_vs_shap": 0.8033347256890871
+    },
+    {
+      "feature": "exang",
+      "spearman_value_vs_shap": 0.82915619758885
+    },
+    {
+      "feature": "slope",
+      "spearman_value_vs_shap": 0.8879959833014152
+    },
+    {
+      "feature": "ca",
+      "spearman_value_vs_shap": 0.8557959367845268
+    },
+    {
+      "feature": "thal",
+      "spearman_value_vs_shap": 0.8852510123341909
+    }
+  ],
+  "core_rows": 28,
+  "extension_rows": 8
+}

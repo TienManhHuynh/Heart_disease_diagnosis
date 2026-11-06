@@ -1,0 +1,31 @@
+{
+  "run_id": "20261102T164927743944Z",
+  "selected_key": "random_forest/original",
+  "test_samples": 31,
+  "stability_training_only": {
+    "scoring": "f1",
+    "mean": 0.7854571185188666,
+    "std": 0.05893894409364947,
+    "scores": [
+      0.851063829787234,
+      0.7894736842105263,
+      0.7804878048780488,
+      0.8,
+      0.7804878048780488,
+      0.7391304347826086,
+      0.7,
+      0.8085106382978723,
+      0.7142857142857143,
+      0.9,
+      0.875,
+      0.7,
+      0.7804878048780488,
+      0.8260869565217391,
+      0.7368421052631579
+    ],
+    "n_splits": 5,
+    "n_repeats": 3,
+    "note": "Fixed hyperparameters chosen using this training subset; descriptive stability check, not nested unbiased model selection."
+  },
+  "test_report_directory": "reports\\runs\\20261102T164927743944Z"
+}

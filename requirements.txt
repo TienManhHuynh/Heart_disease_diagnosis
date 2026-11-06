@@ -1,0 +1,3 @@
+# Cài thư viện và package local ở chế độ editable; xem README trước khi chạy.
+-e .[all]
+

@@ -1,0 +1,40 @@
+# Python environments and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Local backup, cache, intermediate execution and delivery bundles
+/.local/
+/.cache/
+/tmp/
+/output/
+/reports/executed_notebooks/
+/reports/delivery_verification.json
+
+# Rebuild these from versioned raw data and source.
+/data/processed/*
+!/data/processed/.gitkeep
+/artifacts/models/*
+!/artifacts/models/.gitkeep
+/artifacts/metadata/*
+!/artifacts/metadata/.gitkeep
+
+# Environment secrets and editor/OS files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

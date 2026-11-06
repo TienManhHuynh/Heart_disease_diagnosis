@@ -1,0 +1,4 @@
+original_index,source_row_1based,age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,true_label,prediction,disease_probability,error_type
+92,93,62,1,3,130,231,0,0,146,0,1.8,2,3.0,7.0,0,1,0.8575953262928122,FP
+66,67,60,1,3,140,185,0,2,155,0,3.0,2,0.0,3.0,1,0,0.38615886320079906,FN
+271,272,66,1,4,160,228,0,2,138,0,2.3,1,0.0,6.0,0,1,0.6279566155615851,FP
